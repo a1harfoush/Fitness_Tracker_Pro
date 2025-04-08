@@ -7,7 +7,7 @@ A real-time fitness tracker using Python, OpenCV, and MediaPipe to monitor exerc
 
 <!-- Optional: Add a screenshot or GIF of the application in action! -->
 <!-- [Screenshot/GIF placeholder - Replace this line with an actual image tag once you have one] -->
-![image](https://github.com/user-attachments/assets/38326d1f-0d0a-4923-b33c-c4bb796e1368)
+![image](https://github.com/user-attachments/assets/bf30fa49-416a-4703-b25f-b2dd6ed33589)
 ![image](https://github.com/user-attachments/assets/86b7919f-5846-4951-ae4f-a9de2ad8a7e1)
 ![image](https://github.com/user-attachments/assets/5736361e-0bd0-4ea9-92e6-6b41e32bb429)
 
