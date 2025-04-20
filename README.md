@@ -8,11 +8,9 @@ Okay, here's an updated README.md file reflecting the significant enhancements i
 
 A comprehensive, real-time fitness tracker using Python, OpenCV, and MediaPipe. Monitor exercise form, count repetitions across **sets**, track **rest periods**, manage user **profiles**, save **statistics**, and get visual feedback using a webcam or video file input.
 
-<!-- Screenshots of the application -->
-![image](https://github.com/user-attachments/assets/bf30fa49-416a-4703-b25f-b2dd6ed33589)
-![image](https://github.com/user-attachments/assets/86b7919f-5846-4951-ae4f-a9de2ad8a7e1)
-![image](https://github.com/user-attachments/assets/5736361e-0bd0-4ea9-92e6-6b41e32bb429)
-<!-- Add more screenshots if desired, especially for new features like Set Config, Rest Timer, Stats -->
+<!-- Optional: Add a screenshot or GIF of the application in action! -->
+<!-- [Screenshot/GIF placeholder - Replace this line with an actual image tag once you have one] -->
+<!-- Example: ![App Screenshot](path/to/your/screenshot.png) -->
 
 ## Description
 
