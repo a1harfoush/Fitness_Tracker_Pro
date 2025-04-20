@@ -1,5 +1,5 @@
 
-# Fitness Tracker Pro (Enhanced Version)
+# Fitness Tracker Pro 
 
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 <!-- ![License](https://img.shields.io/badge/License-MIT-yellow.svg) --> <!-- Optional: Uncomment if you add an MIT license file -->
@@ -9,6 +9,14 @@ A comprehensive, real-time fitness tracker using Python, OpenCV, and MediaPipe. 
 <!-- Optional: Add a screenshot or GIF of the application in action! -->
 <!-- [Screenshot/GIF placeholder - Replace this line with an actual image tag once you have one] -->
 <!-- Example: ![App Screenshot](path/to/your/screenshot.png) -->
+![image](https://github.com/user-attachments/assets/0b439fd5-5e9e-445d-afce-249bc8d5388c)
+![image](https://github.com/user-attachments/assets/3cc463be-00a3-4bf4-b341-b827d71f6f2e)
+![image](https://github.com/user-attachments/assets/75fef1f8-ded0-414e-8c26-c83401be89ad)
+![image](https://github.com/user-attachments/assets/2da3dcb9-2d64-4831-a982-9c9f1390fea4)
+![431162121-5736361e-0bd0-4ea9-92e6-6b41e32bb429](https://github.com/user-attachments/assets/54fa3a9f-eb1b-4ead-bd74-010afe222cf3)
+
+
+
 
 ## Description
 
