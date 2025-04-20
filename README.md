@@ -2,18 +2,13 @@
 # Fitness Tracker Pro 
 
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
-<!-- ![License](https://img.shields.io/badge/License-MIT-yellow.svg) --> <!-- Optional: Uncomment if you add an MIT license file -->
 
 A comprehensive, real-time fitness tracker using Python, OpenCV, and MediaPipe. Monitor exercise form, count repetitions across **sets**, track **rest periods**, manage user **profiles**, save **statistics**, and get visual feedback using a webcam or video file input.
 
-<!-- Optional: Add a screenshot or GIF of the application in action! -->
-<!-- [Screenshot/GIF placeholder - Replace this line with an actual image tag once you have one] -->
-<!-- Example: ![App Screenshot](path/to/your/screenshot.png) -->
+
 ![image](https://github.com/user-attachments/assets/0b439fd5-5e9e-445d-afce-249bc8d5388c)
-![image](https://github.com/user-attachments/assets/3cc463be-00a3-4bf4-b341-b827d71f6f2e)
-![image](https://github.com/user-attachments/assets/75fef1f8-ded0-414e-8c26-c83401be89ad)
-![image](https://github.com/user-attachments/assets/2da3dcb9-2d64-4831-a982-9c9f1390fea4)
-![431162121-5736361e-0bd0-4ea9-92e6-6b41e32bb429](https://github.com/user-attachments/assets/54fa3a9f-eb1b-4ead-bd74-010afe222cf3)
+
+![Screenshot 2025-04-20 191435_431162121-5736361e-0bd0-4ea9-92e6-6b41e32bb429_Screenshot 2025-04-20 191426_Screenshot 2025-04-20 191501](https://github.com/user-attachments/assets/6480f03a-9a6b-4616-af89-cfd2a13b8c0e)
 
 
 
@@ -72,7 +67,8 @@ For detailed information on how pose estimation is used for rep counting and for
 
 ```
 .
-├── your_script_name.py    # Main application script (e.g., fitness_tracker_pro.py)
+├── fitness_tracker_ui.py  # Main application script
+├── fitness_tracker.py     # Simpler version for quick test
 ├── GIFs/                  # Contains exercise guide GIFs (REQUIRED)
 │   ├── bicep.gif
 │   ├── squats.gif
@@ -85,15 +81,10 @@ For detailed information on how pose estimation is used for rep counting and for
 ├── venv/                  # Python virtual environment (Should be in .gitignore)
 ├── requirements.txt       # List of Python dependencies (Recommended)
 ├── .gitignore             # Specifies intentionally untracked files
-├── README.md              # This file
-└── LICENSE                # (Optional) Project License file
+├── POSE_ESTIMATION_DETAILS.md   # Details on the calculations and angles
+└── README.md              # This file
 ```
 
-**Important:**
-*   Replace `your_script_name.py` with the actual name of your main Python file.
-*   The `GIFs` folder and its contents are **required** for the exercise guide feature.
-*   `profiles.json` and `stats.json` will be created in the same directory as the script when you first run it or create profiles/save stats.
-*   The `venv` folder should **not** be committed to Git (ensure it's listed in your `.gitignore`).
 
 ## Prerequisites
 
@@ -124,7 +115,6 @@ For detailed information on how pose estimation is used for rep counting and for
 
 3.  **Install dependencies:**
     *   **(Recommended Way) Using `requirements.txt`:**
-        *(First, create/update `requirements.txt` while your venv is active: `pip freeze > requirements.txt`)*
         ```bash
         pip install -r requirements.txt
         ```
@@ -144,8 +134,7 @@ For detailed information on how pose estimation is used for rep counting and for
 
 2.  **Run the main application script:**
     ```bash
-    # Replace with your actual script name
-    python your_script_name.py
+    python fitness_tracker_ui.py
     ```
 
 3.  **Follow the on-screen UI:**
@@ -168,7 +157,7 @@ For detailed information on how pose estimation is used for rep counting and for
 
 ## Configuration
 
-Parameters for exercise detection, form feedback, MET values, and UI appearance are defined as constants near the top of the `your_script_name.py` script.
+Parameters for exercise detection, form feedback, MET values, and UI appearance are defined as constants near the top of the `fitness_tracker_ui.py` script.
 
 *   **Rep Counting Thresholds:** Adjust `*_ENTER_ANGLE`, `*_EXIT_ANGLE` constants.
 *   **Form Correction Thresholds:** Modify `BACK_ANGLE_THRESHOLD_*`, `PUSHUP_BODY_STRAIGHT_*`, etc.
@@ -177,13 +166,6 @@ Parameters for exercise detection, form feedback, MET values, and UI appearance 
 *   **MET Values:** `MET_VALUES` dictionary maps exercises to Metabolic Equivalent Task values for calorie estimation.
 *   **UI:** Colors, fonts, layout constants can be tweaked.
 
-## License
-
-<!-- State your license here. Example: -->
-This project is licensed under the MIT License - see the `LICENSE` file for details (if applicable).
-
-<!-- Or if no license file yet: -->
-<!-- License details TBD. -->
 
 ## Acknowledgements
 
