@@ -1,6 +1,4 @@
-Okay, here's an updated README.md file reflecting the significant enhancements in your Python script (profiles, sets, rest periods, stats, etc.).
 
-```markdown
 # Fitness Tracker Pro (Enhanced Version)
 
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
@@ -183,14 +181,3 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 *   **MediaPipe** by Google for the powerful pose estimation framework.
 *   **OpenCV** for the versatile computer vision library.
-```
-
-**Key Changes Made:**
-
-*   Updated the main description and features list to include Profiles, Sets, Reps, Rest, Stats, JSON saving, Matplotlib visualization, and the interactive UI flow.
-*   Clarified the difference in features between Webcam and Video File modes.
-*   Added `matplotlib` to the Tech Stack and manual installation instructions.
-*   Updated the Directory Structure to reflect the single main script and the automatically generated JSON files.
-*   Significantly expanded the "Usage" section to describe the new UI flow, including profile management, set configuration, and the rest timer.
-*   Expanded the "Configuration" section to mention the new constants related to sets, rest, stats files, and MET values.
-*   Replaced placeholder script names with `your_script_name.py` – **remember to replace this with the actual filename** (e.g., `fitness_tracker_pro.py`).
