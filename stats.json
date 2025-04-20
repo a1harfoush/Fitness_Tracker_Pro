@@ -1,0 +1,20 @@
+{
+    "harfoush": {
+        "BICEP CURL": {
+            "total_reps": 29,
+            "total_calories": 43.68249872624874,
+            "last_config_sets": 2,
+            "last_config_reps": 3,
+            "last_config_rest": 5
+        },
+        "DEADLIFT": {
+            "total_reps": 4,
+            "total_calories": 1.9329126477241518
+        },
+        "SQUAT": {
+            "total_reps": 7,
+            "total_calories": 22.786792993545532
+        }
+    },
+    "test": {}
+}

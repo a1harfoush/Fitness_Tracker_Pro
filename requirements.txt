@@ -30,3 +30,4 @@ numpy
 mediapipe
 imageio
 screeninfo
+matplotlib
