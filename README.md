@@ -107,7 +107,7 @@ For detailed information on how pose estimation is used for rep counting and for
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/a1harfoush/Fitness_Tracker_Pro.git](https://github.com/a1harfoush/Fitness_Tracker_Pro.git)
+    git clone https://github.com/a1harfoush/Fitness_Tracker_Pro.git
     cd Fitness_Tracker_Pro
     ```
 
