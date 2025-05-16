@@ -31,3 +31,5 @@ mediapipe
 imageio
 screeninfo
 matplotlib
+google-generativeai
+python-dotenv
