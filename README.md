@@ -4,8 +4,9 @@
 
 A comprehensive, real-time fitness tracker using Python, OpenCV, and MediaPipe. Monitor exercise form, count repetitions across **sets**, track **rest periods**, manage user **profiles**, save **statistics**, get visual feedback, and interact with an **AI Fitness Coach**. Uses webcam or video file input.
 
-![image](https://github.com/user-attachments/assets/0b439fd5-5e9e-445d-afce-249bc8d5388c)
-![Screenshots](https://github.com/user-attachments/assets/6480f03a-9a6b-4616-af89-cfd2a13b8c0e)
+![image](https://github.com/user-attachments/assets/28212cb3-dac6-4678-bc98-526a61851467)
+![Four Rectangle Collage Blank (1)](https://github.com/user-attachments/assets/d5448d30-d795-442b-8bd5-cd137e598aa5)
+
 
 ## Description
 
